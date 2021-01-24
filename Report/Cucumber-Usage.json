@@ -1,0 +1,200 @@
+[
+  {
+    "source": "I want to launch chrome Brower.",
+    "steps": [
+      {
+        "name": "I want to launch chrome Brower.",
+        "aggregatedDurations": {
+          "median": 1.025,
+          "average": 1.025
+        },
+        "durations": [
+          {
+            "duration": 1.025,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I use valid URL of the Application in browser address bar.",
+    "steps": [
+      {
+        "name": "I use valid URL of the Application in browser address bar.",
+        "aggregatedDurations": {
+          "median": 0.684,
+          "average": 0.684
+        },
+        "durations": [
+          {
+            "duration": 0.684,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User should be able to launch the application and login page should be displayed.",
+    "steps": [
+      {
+        "name": "User should be able to launch the application and login page should be displayed.",
+        "aggregatedDurations": {
+          "median": 0.174,
+          "average": 0.174
+        },
+        "durations": [
+          {
+            "duration": 0.174,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User closes the browser and application",
+    "steps": [
+      {
+        "name": "User closes the browser and application",
+        "aggregatedDurations": {
+          "median": 0.117,
+          "average": 0.117
+        },
+        "durations": [
+          {
+            "duration": 0.117,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Launch the application with valid URL.",
+    "steps": [
+      {
+        "name": "Launch the application with valid URL.",
+        "aggregatedDurations": {
+          "median": 1.308,
+          "average": 1.308
+        },
+        "durations": [
+          {
+            "duration": 1.308,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Provide valid {string} in username text box.",
+    "steps": [
+      {
+        "name": "Provide valid \"standard_user\" in username text box.",
+        "aggregatedDurations": {
+          "median": 0.097,
+          "average": 0.097
+        },
+        "durations": [
+          {
+            "duration": 0.097,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Provide valid {string} in password textbox.",
+    "steps": [
+      {
+        "name": "Provide valid \"secret_sauce\" in password textbox.",
+        "aggregatedDurations": {
+          "median": 0.083,
+          "average": 0.083
+        },
+        "durations": [
+          {
+            "duration": 0.083,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click on Login button.",
+    "steps": [
+      {
+        "name": "Click on Login button.",
+        "aggregatedDurations": {
+          "median": 0.592,
+          "average": 0.592
+        },
+        "durations": [
+          {
+            "duration": 0.592,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User should be able to login into the application successfully.",
+    "steps": [
+      {
+        "name": "User should be able to login into the application successfully.",
+        "aggregatedDurations": {
+          "median": 0.005,
+          "average": 0.005
+        },
+        "durations": [
+          {
+            "duration": 0.005,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Products Page should be displayed.",
+    "steps": [
+      {
+        "name": "Products Page should be displayed.",
+        "aggregatedDurations": {
+          "median": 0.034,
+          "average": 0.034
+        },
+        "durations": [
+          {
+            "duration": 0.034,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Close the browser.",
+    "steps": [
+      {
+        "name": "Close the browser.",
+        "aggregatedDurations": {
+          "median": 0.065,
+          "average": 0.065
+        },
+        "durations": [
+          {
+            "duration": 0.065,
+            "location": "file:///home/qualitrix/Desktop/ws/BDDCucumber/featurefiles/SwagLabsLogin.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]
