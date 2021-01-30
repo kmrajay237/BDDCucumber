@@ -13,9 +13,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class SwagLabLoginValidCredential {
+public class SwagLabsLaunchAppValidURL {
 	
 	public WebDriver driver;
+	public SoftAssert soft=new SoftAssert();
 	
 	@Given("I want to launch chrome Brower.")
 	public void i_want_to_launch_chrome_brower() {
@@ -35,17 +36,15 @@ public class SwagLabLoginValidCredential {
 	    WebElement username = driver.findElement(By.id("user-name"));
 	    WebElement password = driver.findElement(By.id("password"));
 	    WebElement loginButton = driver.findElement(By.id("login-button"));
-	    
-	    SoftAssert soft=new SoftAssert();
 	    soft.assertEquals(username.isDisplayed(), true);
 	    soft.assertEquals(password.isDisplayed(), true);
 	    soft.assertEquals(loginButton.isDisplayed(), true);
-	    soft.assertAll();
 	}
 	
 	@Then("User closes the browser and application")
 	public void user_closes_the_browser_and_application() {
 	    driver.quit();
+	    soft.assertAll();
 	}
 
 }

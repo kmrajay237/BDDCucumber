@@ -61,16 +61,19 @@ public class SwagLabsLoginValidCredential {
 	   String expURL="https://www.saucedemo.com/inventory.html";
 	   String actURL=driver.getCurrentUrl();
 	   soft.assertEquals(actURL, expURL);
+//	   soft.assertAll();
 	}
 
 	@Then("Products Page should be displayed.")
 	public void products_page_should_be_displayed() {
 	    WebElement products = driver.findElement(By.cssSelector(".product_label"));
 	    soft.assertEquals(products.isDisplayed(), true);
+//	    soft.assertAll();
 	}
 
 	@Then("Close the browser.")
 	public void close_the_browser() {
 	    driver.close();
+	    soft.assertAll();
 	}
 }

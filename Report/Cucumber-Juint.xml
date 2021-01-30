@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="4.445">
-<testcase classname="Verifying Login functionality with Valid &amp; Invalid User Credentials" name="Verify that user is able to launch the application with valid url." time="2.077">
-<system-out><![CDATA[Given I want to launch chrome Brower........................................passed
-When I use valid URL of the Application in browser address bar..............passed
-Then User should be able to launch the application and login page should be displayed..passed
-And User closes the browser and application.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Verifying Login functionality with Valid &amp; Invalid User Credentials" name="Verify that user is able to login with Valid credentials." time="2.193">
-<system-out><![CDATA[Given Launch the application with valid URL.................................passed
-When Provide valid "standard_user" in username text box.....................passed
-And Provide valid "secret_sauce" in password textbox........................passed
-And Click on Login button...................................................passed
-Then User should be able to login into the application successfully.........passed
-And Products Page should be displayed.......................................passed
-Then Close the browser......................................................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.199">
+<testcase classname="Demonstrating Tags Concept in Cucumber" name="Smoke Tag" time="0.069">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Step One for Smoke....................................................undefined
+When Step Two for Smoke.....................................................skipped
+Then Step three for Smoke...................................................skipped
+And Step Four for Smoke.....................................................skipped
+Then Step Five for Smoke....................................................skipped
+]]></failure>
 </testcase>
 </testsuite>

@@ -1,15 +1,8 @@
 
-Scenario: Verify that user is able to launch the application with valid url.             [90m# featurefiles/SwagLabsLogin.feature:4[0m
-  [32mGiven [0m[32mI want to launch chrome Brower.[0m                                                  [90m# stepDefinition.SwagLabLoginValidCredential.i_want_to_launch_chrome_brower()[0m
-  [32mWhen [0m[32mI use valid URL of the Application in browser address bar.[0m                        [90m# stepDefinition.SwagLabLoginValidCredential.i_use_valid_url_of_the_application_in_browser_address_bar()[0m
-  [32mThen [0m[32mUser should be able to launch the application and login page should be displayed.[0m [90m# stepDefinition.SwagLabLoginValidCredential.user_should_be_able_to_launch_the_application_and_login_page_should_be_displayed()[0m
-  [32mAnd [0m[32mUser closes the browser and application[0m                                            [90m# stepDefinition.SwagLabLoginValidCredential.user_closes_the_browser_and_application()[0m
-
-Scenario: Verify that user is able to login with Valid credentials.    [90m# featurefiles/SwagLabsLogin.feature:12[0m
-  [32mGiven [0m[32mLaunch the application with valid URL.[0m                         [90m# stepDefinition.SwagLabsLoginValidCredential.launch_the_application_with_valid_url()[0m
-  [32mWhen [0m[32mProvide valid [0m[32m[1m"standard_user"[0m[32m in username text box.[0m             [90m# stepDefinition.SwagLabsLoginValidCredential.provide_valid_in_username_text_box(java.lang.String)[0m
-  [32mAnd [0m[32mProvide valid [0m[32m[1m"secret_sauce"[0m[32m in password textbox.[0m                [90m# stepDefinition.SwagLabsLoginValidCredential.provide_valid_in_password_textbox(java.lang.String)[0m
-  [32mAnd [0m[32mClick on Login button.[0m                                           [90m# stepDefinition.SwagLabsLoginValidCredential.click_on_login_button()[0m
-  [32mThen [0m[32mUser should be able to login into the application successfully.[0m [90m# stepDefinition.SwagLabsLoginValidCredential.user_should_be_able_to_login_into_the_application_successfully()[0m
-  [32mAnd [0m[32mProducts Page should be displayed.[0m                               [90m# stepDefinition.SwagLabsLoginValidCredential.products_page_should_be_displayed()[0m
-  [32mThen [0m[32mClose the browser.[0m                                              [90m# stepDefinition.SwagLabsLoginValidCredential.close_the_browser()[0m
+@smoke
+Scenario: Smoke Tag         [90m# featurefiles/TagsDemo.feature:4[0m
+  [33mGiven [0m[33mStep One for Smoke[0m  [90m# null[0m
+  [36mWhen [0m[36mStep Two for Smoke[0m   [90m# null[0m
+  [36mThen [0m[36mStep three for Smoke[0m [90m# null[0m
+  [36mAnd [0m[36mStep Four for Smoke[0m   [90m# null[0m
+  [36mThen [0m[36mStep Five for Smoke[0m  [90m# null[0m

@@ -3,177 +3,75 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-24T05:11:04.014Z",
+        "start_timestamp": "2021-01-30T05:18:37.471Z",
         "line": 4,
-        "name": "Verify that user is able to launch the application with valid url.",
+        "name": "Smoke Tag",
         "description": "",
-        "id": "verifying-login-functionality-with-valid-\u0026-invalid-user-credentials;verify-that-user-is-able-to-launch-the-application-with-valid-url.",
+        "id": "demonstrating-tags-concept-in-cucumber;smoke-tag",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1025000000,
-              "status": "passed"
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Step One for Smoke",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 6,
-            "name": "I want to launch chrome Brower.",
-            "match": {
-              "location": "stepDefinition.SwagLabLoginValidCredential.i_want_to_launch_chrome_brower()"
-            },
-            "keyword": "Given "
+            "name": "Step Two for Smoke",
+            "match": {},
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 684000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 7,
-            "name": "I use valid URL of the Application in browser address bar.",
-            "match": {
-              "location": "stepDefinition.SwagLabLoginValidCredential.i_use_valid_url_of_the_application_in_browser_address_bar()"
-            },
-            "keyword": "When "
+            "name": "Step three for Smoke",
+            "match": {},
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 174000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Step Four for Smoke",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 9,
-            "name": "User should be able to launch the application and login page should be displayed.",
-            "match": {
-              "location": "stepDefinition.SwagLabLoginValidCredential.user_should_be_able_to_launch_the_application_and_login_page_should_be_displayed()"
-            },
+            "name": "Step Five for Smoke",
+            "match": {},
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 117000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User closes the browser and application",
-            "match": {
-              "location": "stepDefinition.SwagLabLoginValidCredential.user_closes_the_browser_and_application()"
-            },
-            "keyword": "And "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2021-01-24T05:11:06.116Z",
-        "line": 12,
-        "name": "Verify that user is able to login with Valid credentials.",
-        "description": "",
-        "id": "verifying-login-functionality-with-valid-\u0026-invalid-user-credentials;verify-that-user-is-able-to-login-with-valid-credentials.",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 1308000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "Launch the application with valid URL.",
-            "match": {
-              "location": "stepDefinition.SwagLabsLoginValidCredential.launch_the_application_with_valid_url()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 97000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "Provide valid \"standard_user\" in username text box.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"standard_user\"",
-                  "offset": 14
-                }
-              ],
-              "location": "stepDefinition.SwagLabsLoginValidCredential.provide_valid_in_username_text_box(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 83000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "Provide valid \"secret_sauce\" in password textbox.",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"secret_sauce\"",
-                  "offset": 14
-                }
-              ],
-              "location": "stepDefinition.SwagLabsLoginValidCredential.provide_valid_in_password_textbox(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 592000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "Click on Login button.",
-            "match": {
-              "location": "stepDefinition.SwagLabsLoginValidCredential.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "User should be able to login into the application successfully.",
-            "match": {
-              "location": "stepDefinition.SwagLabsLoginValidCredential.user_should_be_able_to_login_into_the_application_successfully()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 34000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Products Page should be displayed.",
-            "match": {
-              "location": "stepDefinition.SwagLabsLoginValidCredential.products_page_should_be_displayed()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 65000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "Close the browser.",
-            "match": {
-              "location": "stepDefinition.SwagLabsLoginValidCredential.close_the_browser()"
-            },
-            "keyword": "Then "
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "Verifying Login functionality with Valid \u0026 Invalid User Credentials",
+    "name": "Demonstrating Tags Concept in Cucumber",
     "description": "",
-    "id": "verifying-login-functionality-with-valid-\u0026-invalid-user-credentials",
+    "id": "demonstrating-tags-concept-in-cucumber",
     "keyword": "Feature",
-    "uri": "file:featurefiles/SwagLabsLogin.feature",
+    "uri": "file:featurefiles/TagsDemo.feature",
     "tags": []
   }
 ]
