@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.038939">
+<testcase classname="Background Feature" name="Background Scenario one" time="0.031339">
+<system-out><![CDATA[Given precondition one......................................................passed
+When precondition two.......................................................passed
+Given step one..............................................................passed
+When step two...............................................................passed
+Then step three.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background Feature" name="Background Scenario two" time="0.004241">
+<system-out><![CDATA[Given precondition one......................................................passed
+When precondition two.......................................................passed
+Given step one..............................................................passed
+When step two...............................................................passed
+Then step three.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Background Feature" name="Background Scenario three" time="0.003359">
+<system-out><![CDATA[Given precondition one......................................................passed
+When precondition two.......................................................passed
+Given step one..............................................................passed
+When step two...............................................................passed
+Then step three.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

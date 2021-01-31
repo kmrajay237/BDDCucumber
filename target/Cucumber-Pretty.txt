@@ -1,0 +1,32 @@
+@btd
+Feature: Background Feature
+
+  Background:              # featurefiles/BackgroundDemo.feature:4
+    Given precondition one # BackgroundTestDemo.precondition_one()
+    When precondition two  # BackgroundTestDemo.precondition_two()
+
+  @btd
+  Scenario: Background Scenario one # featurefiles/BackgroundDemo.feature:8
+    Given step one                  # BackgroundTestDemo.step_one()
+    When step two                   # BackgroundTestDemo.step_two()
+    Then step three                 # BackgroundTestDemo.step_three()
+
+  Background:              # featurefiles/BackgroundDemo.feature:4
+    Given precondition one # BackgroundTestDemo.precondition_one()
+    When precondition two  # BackgroundTestDemo.precondition_two()
+
+  @btd
+  Scenario: Background Scenario two # featurefiles/BackgroundDemo.feature:13
+    Given step one                  # BackgroundTestDemo.step_one()
+    When step two                   # BackgroundTestDemo.step_two()
+    Then step three                 # BackgroundTestDemo.step_three()
+
+  Background:              # featurefiles/BackgroundDemo.feature:4
+    Given precondition one # BackgroundTestDemo.precondition_one()
+    When precondition two  # BackgroundTestDemo.precondition_two()
+
+  @btd
+  Scenario: Background Scenario three # featurefiles/BackgroundDemo.feature:18
+    Given step one                    # BackgroundTestDemo.step_one()
+    When step two                     # BackgroundTestDemo.step_two()
+    Then step three                   # BackgroundTestDemo.step_three()

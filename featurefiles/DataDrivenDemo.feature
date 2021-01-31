@@ -1,3 +1,4 @@
+@datadriven
 Feature: Data Driven Demo
 
   Scenario Outline: Scenario One

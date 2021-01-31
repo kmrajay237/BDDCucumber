@@ -1,0 +1,132 @@
+[
+  {
+    "source": "precondition one",
+    "steps": [
+      {
+        "name": "precondition one",
+        "aggregatedDurations": {
+          "median": 0.00037264,
+          "average": 0.000727050
+        },
+        "durations": [
+          {
+            "duration": 0.001546966,
+            "location": "file:featurefiles/BackgroundDemo.feature:5"
+          },
+          {
+            "duration": 0.00037264,
+            "location": "file:featurefiles/BackgroundDemo.feature:5"
+          },
+          {
+            "duration": 0.000261544,
+            "location": "file:featurefiles/BackgroundDemo.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "precondition two",
+    "steps": [
+      {
+        "name": "precondition two",
+        "aggregatedDurations": {
+          "median": 0.000313249,
+          "average": 0.000446469
+        },
+        "durations": [
+          {
+            "duration": 0.00075368,
+            "location": "file:featurefiles/BackgroundDemo.feature:6"
+          },
+          {
+            "duration": 0.000313249,
+            "location": "file:featurefiles/BackgroundDemo.feature:6"
+          },
+          {
+            "duration": 0.000272479,
+            "location": "file:featurefiles/BackgroundDemo.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "step one",
+    "steps": [
+      {
+        "name": "step one",
+        "aggregatedDurations": {
+          "median": 0.000775823,
+          "average": 0.001054685
+        },
+        "durations": [
+          {
+            "duration": 0.001802156,
+            "location": "file:featurefiles/BackgroundDemo.feature:9"
+          },
+          {
+            "duration": 0.000775823,
+            "location": "file:featurefiles/BackgroundDemo.feature:14"
+          },
+          {
+            "duration": 0.000586076,
+            "location": "file:featurefiles/BackgroundDemo.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "step two",
+    "steps": [
+      {
+        "name": "step two",
+        "aggregatedDurations": {
+          "median": 0.000267224,
+          "average": 0.000378572
+        },
+        "durations": [
+          {
+            "duration": 0.000643508,
+            "location": "file:featurefiles/BackgroundDemo.feature:10"
+          },
+          {
+            "duration": 0.000267224,
+            "location": "file:featurefiles/BackgroundDemo.feature:15"
+          },
+          {
+            "duration": 0.000224984,
+            "location": "file:featurefiles/BackgroundDemo.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "step three",
+    "steps": [
+      {
+        "name": "step three",
+        "aggregatedDurations": {
+          "median": 0.00022805,
+          "average": 0.000284105
+        },
+        "durations": [
+          {
+            "duration": 0.000400763,
+            "location": "file:featurefiles/BackgroundDemo.feature:11"
+          },
+          {
+            "duration": 0.00022805,
+            "location": "file:featurefiles/BackgroundDemo.feature:16"
+          },
+          {
+            "duration": 0.000223502,
+            "location": "file:featurefiles/BackgroundDemo.feature:21"
+          }
+        ]
+      }
+    ]
+  }
+]

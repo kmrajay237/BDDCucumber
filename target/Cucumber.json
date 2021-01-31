@@ -1,0 +1,277 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1546966,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "precondition one",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 753680,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "precondition two",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_two()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-31T04:57:16.161Z",
+        "line": 8,
+        "name": "Background Scenario one",
+        "description": "",
+        "id": "background-feature;background-scenario-one",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1802156,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "step one",
+            "match": {
+              "location": "BackgroundTestDemo.step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643508,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "step two",
+            "match": {
+              "location": "BackgroundTestDemo.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400763,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "step three",
+            "match": {
+              "location": "BackgroundTestDemo.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@btd"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 372640,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "precondition one",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 313249,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "precondition two",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_two()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-31T04:57:16.196Z",
+        "line": 13,
+        "name": "Background Scenario two",
+        "description": "",
+        "id": "background-feature;background-scenario-two",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 775823,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "step one",
+            "match": {
+              "location": "BackgroundTestDemo.step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267224,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "step two",
+            "match": {
+              "location": "BackgroundTestDemo.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 228050,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "step three",
+            "match": {
+              "location": "BackgroundTestDemo.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@btd"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 261544,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "precondition one",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272479,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "precondition two",
+            "match": {
+              "location": "BackgroundTestDemo.precondition_two()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-31T04:57:16.201Z",
+        "line": 18,
+        "name": "Background Scenario three",
+        "description": "",
+        "id": "background-feature;background-scenario-three",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 586076,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "step one",
+            "match": {
+              "location": "BackgroundTestDemo.step_one()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224984,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "step two",
+            "match": {
+              "location": "BackgroundTestDemo.step_two()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223502,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "step three",
+            "match": {
+              "location": "BackgroundTestDemo.step_three()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@btd"
+          }
+        ]
+      }
+    ],
+    "name": "Background Feature",
+    "description": "",
+    "id": "background-feature",
+    "keyword": "Feature",
+    "uri": "file:featurefiles/BackgroundDemo.feature",
+    "tags": [
+      {
+        "name": "@btd",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

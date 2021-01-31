@@ -1,8 +1,0 @@
-
-@smoke
-Scenario: Smoke Tag         [90m# featurefiles/TagsDemo.feature:4[0m
-  [33mGiven [0m[33mStep One for Smoke[0m  [90m# null[0m
-  [36mWhen [0m[36mStep Two for Smoke[0m   [90m# null[0m
-  [36mThen [0m[36mStep three for Smoke[0m [90m# null[0m
-  [36mAnd [0m[36mStep Four for Smoke[0m   [90m# null[0m
-  [36mThen [0m[36mStep Five for Smoke[0m  [90m# null[0m

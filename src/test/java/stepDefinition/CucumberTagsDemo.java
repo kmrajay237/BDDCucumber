@@ -10,24 +10,20 @@ public class CucumberTagsDemo {
 //	***************************************************
 	@Given("Step One for Smoke")
 	public void step_one_for_smoke() {
-	   System.out.println("Step One for Smoke");
+		System.out.println("Step One for Smoke");
 	}
-
 	@When("Step Two for Smoke")
 	public void step_two_for_smoke() {
 		System.out.println("Step Two for Smoke");
 	}
-
 	@Then("Step three for Smoke")
 	public void step_three_for_smoke() {
 		System.out.println("Step Three for Smoke");
 	}
-
 	@Then("Step Four for Smoke")
 	public void step_four_for_smoke() {
 		System.out.println("Step Four for Smoke");
 	}
-
 	@Then("Step Five for Smoke")
 	public void step_five_for_smoke() {
 		System.out.println("Step Five for Smoke");
@@ -113,4 +109,18 @@ public class CucumberTagsDemo {
 	public void step_five_non_functional() {
 		System.out.println("Step Five for Non-Functional");
 	}
+	
+//	***************************************************
+//	********************** Scenario Outline Tag *****************
+//	***************************************************
+	@Given("step one scenario outline")
+	public void step_one_scenario_outline() {
+		System.out.println("Step One");
+	}
+
+	@When("step two scenario outline")
+	public void step_two_scenario_outline() {
+	    System.out.println("Step Two");
+	}
+	
 }
